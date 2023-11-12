@@ -1,0 +1,163 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aastha Singh | Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+            background: linear-gradient(to left, rgb(216, 166, 216), rgb(220, 149, 161));
+            margin: 0px;
+        }
+
+        .center {
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            color: rgb(255, 255, 255);
+            font-size: 2.5cm;
+            font-style: italic;
+        }
+
+        header {
+            background-color: black;
+
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 130px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+            transition: 0.0s;
+        }
+
+        .sidebar a {
+            padding: 8px 8px 8px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            display: block;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        h2 {
+            background-color: black;
+            color: whitesmoke;
+        }
+
+        h3 {
+            color: rgb(191, 13, 13);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        p {
+            color: rgb(50, 3, 65);
+
+        }
+
+        .brb {
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+        }
+
+        .projects a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        footer {
+
+            color: rgb(255, 255, 255);
+            background-color: black;
+            border: 2px solid white;
+            padding: 20px 20px 20px;
+        }
+
+        footer a {
+            color: rgb(255, 255, 255);
+            font-size: 0.5cm;
+        }
+
+        @media (max-width: 768px) {
+
+            footer img,
+            footer a {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="center"><br>Hey all! I am Aastha Singh.</h1>
+    </header>
+
+    <div class="sidebar" id="mysidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="project.html">My Projects</a>
+        <a href="poems.html">My Poems</a>
+        <a href="photography.html">My Photography</a>
+      
+    </div>
+    <span style="font-size: 20px; cursor:pointer;" onclick="openNav()">&#9776; Menu</span>
+
+    <main>
+        <section>
+            <h2 class="center">About</h2>
+            <p>Hey There! </p>
+            <h3> I am Aastha Singh.</h3>
+            <p>I am currently pursuing BTech in Information Technology for College of Technology, Pantnagar which
+                comes
+                in
+                Govind Ballabh University of Agriculture and Technology.</p>
+            <p> I have great interest in Web Devlopment. I am passionate in Literature and photography too. </p>
+            <p> Skills I learnt are:-</p>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ol>
+            <img src="" alt="My image">
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        &copy; 2023. All Rights Reserved
+        <hr>
+        Other ways to contact me:
+        <hr><br>
+        <img src="email.jpg" height="45px" width="40px"> <a data-email="aasthasinghddun289@gmail.com"
+            href="mailto:aasthasinghddun289@gmail.com">Email id</a>
+        <img src="email.jpg" height="45px" width="40px"> <a data-email="aasthasinghddun@gmail.com"
+            href="mailto:aasthasinghddun@gmail.com">Email id</a>
+        <img src="linkedin.jpg" height="45px" width="40px"> <a data-linkedin
+            href="https://www.linkedin.com/in/aastha-singh-0167b3257/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BoJTwpuR7RLyxdYbh%2F767ww%3D%3D">Linkedin</a>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
